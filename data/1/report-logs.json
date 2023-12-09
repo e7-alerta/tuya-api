@@ -1,0 +1,48 @@
+{
+  "result": {
+    "device_id": "eb3553b506ae11cafbpmpc",
+    "has_more": true,
+    "last_row_key": "767D46519E80360E1B3DB1049AC43785FF083F560F83CB79A8FB286DDA3D9BD190203DC7CC84B301FA1082A78D306380A195736450890464B02A935F3B1BC7D1",
+    "logs": [
+      {
+        "code": "doorcontact_state",
+        "event_time": 1701532698594,
+        "value": "true"
+      },
+      {
+        "code": "doorcontact_state",
+        "event_time": 1701532698311,
+        "value": "false"
+      },
+      {
+        "code": "doorcontact_state",
+        "event_time": 1701532695077,
+        "value": "true"
+      },
+      {
+        "code": "doorcontact_state",
+        "event_time": 1701532694571,
+        "value": "false"
+      },
+      {
+        "code": "doorcontact_state",
+        "event_time": 1701532694334,
+        "value": "true"
+      },
+      {
+        "code": "doorcontact_state",
+        "event_time": 1701532685000,
+        "value": "true"
+      },
+      {
+        "code": "doorcontact_state",
+        "event_time": 1701532684725,
+        "value": "false"
+      }
+    ],
+    "total": 1000
+  },
+  "success": true,
+  "t": 1701562482184,
+  "tid": "f45e315d917011ee956f169549a2dd26"
+}

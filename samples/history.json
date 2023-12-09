@@ -1,0 +1,17 @@
+{
+  "result": {
+    "device_id": "eb3553b506ae11cafbpmpc",
+    "has_more": false,
+    "logs": [
+      {
+        "code": "doorcontact_state",
+        "event_time": 1701859925459,
+        "value": "false"
+      }
+    ],
+    "total": 1000
+  },
+  "success": true,
+  "t": 1701859934659,
+  "tid": "841ad717942511eea9175692ba35e69d"
+}

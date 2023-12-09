@@ -1,0 +1,42 @@
+{
+  "result": {
+    "active_time": 1700190396,
+    "biz_type": 18,
+    "category": "mcs",
+    "create_time": 1700190396,
+    "icon": "smart/icon/ay1565138036928sSi0S/84db77513b0eb5f5508e115f8c748938.png",
+    "id": "eb3553b506ae11cafbpmpc",
+    "ip": "181.46.252.131",
+    "lat": "-34.6200",
+    "local_key": "-tb:+Lbjp-#$cqrE",
+    "lon": "-58.4000",
+    "model": "MC400S_CB3S",
+    "name": "Alarma con sensor de puerta",
+    "online": true,
+    "owner_id": "175708948",
+    "product_id": "foowstlxscj07d6v",
+    "product_name": "Door sensor alarm",
+    "status": [
+      {
+        "code": "doorcontact_state",
+        "value": false
+      },
+      {
+        "code": "battery_percentage",
+        "value": 78
+      },
+      {
+        "code": "temper_alarm",
+        "value": false
+      }
+    ],
+    "sub": false,
+    "time_zone": "-03:00",
+    "uid": "az1700188402100MNn65",
+    "update_time": 1701413572,
+    "uuid": "2c6af5105ee67496"
+  },
+  "success": true,
+  "t": 1701417384975,
+  "tid": "1fd340f4901f11ee9014b60280d6c73f"
+}

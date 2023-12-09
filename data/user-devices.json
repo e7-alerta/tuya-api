@@ -1,0 +1,171 @@
+{
+  "result": [
+    {
+      "active_time": 1700190396,
+      "biz_type": 18,
+      "category": "mcs",
+      "create_time": 1700190396,
+      "icon": "smart/icon/ay1565138036928sSi0S/84db77513b0eb5f5508e115f8c748938.png",
+      "id": "eb3553b506ae11cafbpmpc",
+      "ip": "181.46.252.131",
+      "lat": "-34.6200",
+      "local_key": "-tb:+Lbjp-#$cqrE",
+      "lon": "-58.4000",
+      "model": "MC400S_CB3S",
+      "name": "Alarma con sensor de puerta",
+      "online": true,
+      "owner_id": "175708948",
+      "product_id": "foowstlxscj07d6v",
+      "product_name": "Door sensor alarm",
+      "status": [
+        {
+          "code": "doorcontact_state",
+          "value": false
+        },
+        {
+          "code": "battery_percentage",
+          "value": 78
+        },
+        {
+          "code": "temper_alarm",
+          "value": false
+        }
+      ],
+      "sub": false,
+      "time_zone": "-03:00",
+      "uid": "az1700188402100MNn65",
+      "update_time": 1701413572,
+      "uuid": "2c6af5105ee67496"
+    },
+    {
+      "active_time": 1700190394,
+      "biz_type": 18,
+      "category": "pir",
+      "create_time": 1700190394,
+      "icon": "smart/icon/ay1537847617560vAgbw/9e1a10300f742875eb5b6b9b6c7ca636.jpg",
+      "id": "eb69265ebb5cec90f4ilqa",
+      "ip": "181.46.252.131",
+      "lat": "-34.6200",
+      "local_key": "[u_^l9<BlIXbi|?",
+      "lon": "-58.4000",
+      "model": "HW400B",
+      "name": "sensor de movimiento humano",
+      "online": false,
+      "owner_id": "175708948",
+      "product_id": "gaczanu8noooebfe",
+      "product_name": "human motion sensor",
+      "status": [
+        {
+          "code": "pir",
+          "value": "pir"
+        },
+        {
+          "code": "battery_percentage",
+          "value": 63
+        }
+      ],
+      "sub": false,
+      "time_zone": "-03:00",
+      "uid": "az1700188402100MNn65",
+      "update_time": 1700473736,
+      "uuid": "1549a772b7020499"
+    },
+    {
+      "active_time": 1700368611,
+      "biz_type": 18,
+      "category": "mcs",
+      "create_time": 1700368611,
+      "icon": "smart/icon/ay1562583874631k02Aw/756e63e56bdcbf82635129853e0c1cc9.png",
+      "id": "eb48d0f63ff543fd9bgmcj",
+      "ip": "181.46.252.131",
+      "lat": "0.0000",
+      "local_key": ";C&&N[KR)XuUue&c",
+      "lon": "0.0000",
+      "model": "CT80W(XR3)",
+      "name": "solar 1",
+      "online": true,
+      "owner_id": "175708948",
+      "product_id": "tkfv8q2audfkgqzn",
+      "product_name": "Solar infrared sound and light ",
+      "status": [
+        {
+          "code": "doorcontact_state",
+          "value": false
+        },
+        {
+          "code": "battery_percentage",
+          "value": 100
+        },
+        {
+          "code": "pir_state",
+          "value": "none"
+        }
+      ],
+      "sub": false,
+      "time_zone": "-03:00",
+      "uid": "az1700188402100MNn65",
+      "update_time": 1700382503,
+      "uuid": "9160a20f732eb3c3"
+    },
+    {
+      "active_time": 1700188946,
+      "biz_type": 18,
+      "category": "cz",
+      "create_time": 1700188946,
+      "icon": "smart/icon/bay1618934274686kLcX/32ca87cdf8227859d3a5dd11bb0cb770.png",
+      "id": "eb625b5548ee84d1c90giq",
+      "ip": "181.46.252.131",
+      "lat": "-34.6200",
+      "local_key": ">S~S!<RnVQMPa?l2",
+      "lon": "-58.4000",
+      "model": "ESX1-2073",
+      "name": "ENCHUFE SMART MACROLED",
+      "online": false,
+      "owner_id": "175708948",
+      "product_id": "7iv3dpuapu3jdi26",
+      "product_name": "",
+      "status": [
+        {
+          "code": "switch_1",
+          "value": true
+        },
+        {
+          "code": "countdown_1",
+          "value": 0
+        },
+        {
+          "code": "relay_status",
+          "value": "last"
+        },
+        {
+          "code": "light_mode",
+          "value": "relay"
+        },
+        {
+          "code": "child_lock",
+          "value": false
+        },
+        {
+          "code": "cycle_time",
+          "value": ""
+        },
+        {
+          "code": "random_time",
+          "value": ""
+        },
+        {
+          "code": "switch_inching",
+          "value": ""
+        }
+      ],
+      "sub": false,
+      "time_zone": "-03:00",
+      "uid": "az1700188402100MNn65",
+      "update_time": 1700194702,
+      "uuid": "b05458aef3e0d8d8"
+    }
+  ],
+  "success": true,
+  "t": 1701416378354,
+  "tid": "c7ec5834901c11ee9393fabce3625838"
+}

@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "code": "doorcontact_state",
+      "value": true
+    },
+    {
+      "code": "battery_percentage",
+      "value": 78
+    },
+    {
+      "code": "temper_alarm",
+      "value": false
+    }
+  ],
+  "success": true,
+  "t": 1701417595095,
+  "tid": "9d2cc7fc901f11ee9393fabce3625838"
+}

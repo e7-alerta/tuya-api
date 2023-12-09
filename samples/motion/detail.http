@@ -1,0 +1,12 @@
+# curl  --request GET "https://openapi.tuyaus.com/v2.0/cloud/thing/eb69265ebb5cec90f4ilqa" --header "sign_method: HMAC-SHA256" --header "client_id: m8ky7sd4j4vg98ck9vqu" --header "t: 1701909053842" --header "mode: cors" --header "Content-Type: application/json" --header "sign: 1F64800595E4827927000F9939EF3EE1D99DFECE8680DE4ABE54997D28D742A3" --header "access_token: 78be1822e547d65cd5e856878e27c68c"
+GET https://openapi.tuyaus.com/v2.0/cloud/thing/eb69265ebb5cec90f4ilqa
+sign_method: HMAC-SHA256
+client_id: m8ky7sd4j4vg98ck9vqu
+t: 1701909053842
+mode: cors
+sign: 1F64800595E4827927000F9939EF3EE1D99DFECE8680DE4ABE54997D28D742A3
+access_token: 78be1822e547d65cd5e856878e27c68c
+Content-Type: application/json
+
+###
+
