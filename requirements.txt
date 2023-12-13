@@ -1,1 +1,6 @@
+fastapi
+python-slugify
+uvicorn
+requests
+pydantic
 tuya-connector-python
