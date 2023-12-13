@@ -49,7 +49,7 @@ class SensorClient:
         # Obtén la fecha y hora actual
         end_time = datetime.now()
         # Resta 5 minutos para obtener la fecha y hora de inicio
-        start_time = end_time - timedelta(minutes=1)
+        start_time = end_time - timedelta(minutes=15)
         # Convierte las fechas y horas en milisegundos (si es necesario)
         end_time_timestamp = int(end_time.timestamp() * 1000)
         start_time_timestamp = int(start_time.timestamp() * 1000)
