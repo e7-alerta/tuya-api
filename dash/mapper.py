@@ -45,8 +45,11 @@ def device_load(item):
         id=item["id"],
         status=DeviceStatus(item["status"]),
         device_type=device_type,
-        alerted=item["alerted"],
-        name=item["device_name"],
-        tuya_id=item["tuya_id"],
-        place_id=item["place"]
+        alerted=item["alerted"] if "alerted" in item else False,
+        sos=item["sos"] if "sos" in item else False,
+        device_id=item["device_id"] if "device_id" in item else None,
+        name=item["device_name"] if "device_name" in item else None,
+        tuya_device=item["tuya_device"] if "tuya_device" in item else False,
+        tuya_id=item["tuya_id"] if "tuya_id" in item else None,
+        place_id=item["place"] if "place" in item else None
     )

@@ -1,4 +1,4 @@
-from dash.types import DeviceType
+from dash.types import DeviceType, DeviceStatus
 from repositories import devices_repository
 from tuya import service as tuya_service
 from services import alerts_service
@@ -29,6 +29,13 @@ def sync_devices_status():
     devices = devices_repository.find_all_enabled_tuya_devices(
         device_type=DeviceType.MINI_ALARM
     )
+    print(f"devices encontrados:  {len(devices)}")
+    devices = list(filter(lambda device: device.status == DeviceStatus.ENABLED, devices))
+    print(f"devices habilitados:  {len(devices)}")
+    devices = list(filter(lambda device: device.alerted == False, devices))
+    print(f"devices no alertados:  {len(devices)}")
+
+    # filter devices that are already alerted or not enabled
     print(f"devices encontrados:  {devices}")
     for device in devices:
         print(f"device {device.id} is a mini alarm enabled")
@@ -51,7 +58,14 @@ def sync_devices_status():
     devices = devices_repository.find_all_enabled_tuya_devices(
         device_type=DeviceType.DOOR_CONTACT
     )
-    print(f"devices {devices}")
+    print(f"devices encontrados:  {len(devices)}")
+    devices = list(filter(lambda device: device.status == DeviceStatus.ENABLED, devices))
+    print(f"devices habilitados:  {len(devices)}")
+    devices = list(filter(lambda device: device.alerted == False, devices))
+    print(f"devices no alertados:  {len(devices)}")
+
+    # filter devices that are already alerted or not enabled
+    print(f"devices encontrados:  {devices}")
     for device in devices:
         print(f"device {device.id} is a door sensor enabled")
         if device.alerted:

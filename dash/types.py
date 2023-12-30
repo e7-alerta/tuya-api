@@ -1,4 +1,5 @@
 from enum import Enum
+from typing import Optional
 
 from pydantic import BaseModel
 
@@ -40,6 +41,6 @@ class Device(BaseModel):
     status: DeviceStatus
     alerted: bool
     device_type: DeviceType
-    name: str
-    tuya_id: str
-    place_id: str
+    name: Optional[str] = None
+    tuya_id: Optional[str] = None
+    place_id: Optional[str] = None
